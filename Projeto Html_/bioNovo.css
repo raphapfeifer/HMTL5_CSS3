@@ -38,6 +38,17 @@ blockquote {
 aside {
 	background-color: #3C1D3D;
 	color: #F2FFFC;
+	text-align:center;
+	padding: 20px;
+	font-family:"Open Sans Condensed", sans-serif;
+}
+
+.icones-sociais li{
+	display: inline-block;
+}
+
+.social-rodape{
+	margin:68px;
 }
 
 footer{

@@ -4,6 +4,10 @@ body{
 	line-height: 1.5;
 }
 
+h1{
+	text-transform: uppercase;
+}	
+
 h1,h2{
     font-family:"Open Sans Condensed",sans-serif;
 }
@@ -15,10 +19,12 @@ main h1{
 	padding:25px;
 	margin:0px;
 	font-size: 60px;
+	text-transform:uppercase;
 }
 
 h2{
 	font-size: 30px;
+	clear:both;
 }
 
 p {
@@ -33,19 +39,51 @@ blockquote {
 	width:250px;
 	margin:0px;
 	box-sizing:border-box;
+	float:both;
 }
 
-aside {
+aside, img{
+	float: right;
+	width:20%;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+    border-bottom: 10px solid black;
+	
+}
+
+aside{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align:center;
 	padding: 20px;
 	font-family:"Open Sans Condensed", sans-serif;
+	clear:right;
+	box-sizing:border-box;
 }
 
 .icones-sociais li{
 	display: inline-block;
 }
+
+.icones-sociais a {
+	width:40px;
+	height:40px;
+	display: inline-block;
+	font-size: 0;
+}
+
+.github {
+	background-image: url(github.png);
+}
+
+.twitter{
+	background-image: url(twitter.png);
+}
+
+.linkedin{
+	background-image: url(linkedin.png);
+}
+
 
 .social-rodape{
 	margin:68px;
@@ -54,10 +92,12 @@ aside {
 footer{
 	background-color: #000;
 	color: #F2FFFC;
+	clear:both;
 }	
 
 nav a {
-	color: #F2FFFC;
+	color: #F2FFFC; 
+	text-transform:lowercase;	
 }
 
 ul{
@@ -71,6 +111,12 @@ ul li a {
 main a {
 	color: #851944;
 }
+
+main{
+	float:left;
+	width:80%;
+}
+
 
 aside a {
 	color: inherit;
@@ -100,3 +146,25 @@ strong {
 em {
     font-style: italic;
 }
+
+.leia-mais{
+	font-size:24px;
+	padding: 8px;
+	display:block;
+	margin: 16px;
+	text-align: center;
+	background-color:##E6E7E8;
+}
+
+.fiat{
+	float: right;
+}
+
+.petrobras{
+	float: left;
+}
+
+cite{
+	float: right;
+	font-style:italic;
+}	

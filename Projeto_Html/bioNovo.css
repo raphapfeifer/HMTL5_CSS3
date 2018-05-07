@@ -59,6 +59,9 @@ aside{
 	font-family:"Open Sans Condensed", sans-serif;
 	clear:right;
 	box-sizing:border-box;
+	width: 15%;
+	position: relative;
+	top:226px;
 }
 
 .icones-sociais li{
@@ -93,6 +96,10 @@ footer{
 	background-color: #000;
 	color: #F2FFFC;
 	clear:both;
+	position: fixed;
+	bottom:0;
+	width:100%;
+	padding:20px;
 }	
 
 nav a {
@@ -115,6 +122,7 @@ main a {
 main{
 	float:left;
 	width:80%;
+	padding-bottom: 80px;
 }
 
 
@@ -168,3 +176,25 @@ cite{
 	float: right;
 	font-style:italic;
 }	
+aside,.minha-foto{
+	float: right;
+	box-sizing: border-box;
+	border-left: 10px solid black;
+	border-bottom: 10px solid black;
+}
+
+.minha-foto{
+	position: absolute;
+	top: 0;
+	right:0;
+}
+
+.titulo-principal {
+	text-align: center;
+	background-color: #851944;
+	color: #FFF;
+	padding: 25px;
+	border-bottom: 10px solid black;
+	font-size: 60px;
+	text-transform: uppercase;
+}
